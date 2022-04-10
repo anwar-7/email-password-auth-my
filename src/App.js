@@ -131,6 +131,7 @@ function App() {
             </Form.Group>
           )}
 
+          {/* email input field*/}
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
             <Form.Control
@@ -147,6 +148,7 @@ function App() {
             </Form.Control.Feedback>
           </Form.Group>
 
+          {/* password  field*/}
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Label>Password</Form.Label>
             <Form.Control
